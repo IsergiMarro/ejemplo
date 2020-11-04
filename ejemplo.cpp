@@ -39,4 +39,18 @@ int factorial(int n) {
 	   }
    }
      return n;
+     
+     int pppppp(int n) {
+   if(n < 0) {
+   	n = 0;
+   }
+   else{
+   	if(n > 1) {
+	   	n = n*factorial(n-1);
+	   }else{
+	   	n = 1;
+	   }
+   }
+     return n;
+     
 }
